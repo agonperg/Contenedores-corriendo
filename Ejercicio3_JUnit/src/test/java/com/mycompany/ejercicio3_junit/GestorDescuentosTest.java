@@ -20,7 +20,7 @@ public class GestorDescuentosTest {
     @Test
     public void testDescuentoNuevo() {
         Cliente c = new Cliente("Andres", 4);
-        assertEquals(0,GestorDescuentos.calcularDescuento(c), "Se esperaba que con 5 años de de antiguedad no tenga un descuesto");
+        assertEquals(0,GestorDescuentos.calcularDescuento(c), "Se esperaba que con 5 años de de antiguedad no tenga un descuento");
     }
     
     
